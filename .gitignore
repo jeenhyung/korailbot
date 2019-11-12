@@ -9,4 +9,3 @@ account.json
 __pycache__/
 
 *.back
-.gitignore

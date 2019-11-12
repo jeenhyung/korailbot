@@ -16,11 +16,11 @@ None.
 Installing
 ----------
 
-you can also install manually:
+You can also install manually:
 
 First, you've to get a Telegram-bot authentication token [LINK](https://core.telegram.org/bots#6-botfather)
 
-And
+And then,
 
     $ git clone git://github.com/jeenhyung/korailbot.git
     $ python bot.py TOKEN (Or, python3)
