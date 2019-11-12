@@ -1,0 +1,11 @@
+korail.py
+bot.py.back
+logfile
+Letskorail.pyc
+run.sh
+thread_test.py
+account.json
+
+__pycache__/
+
+*.back
