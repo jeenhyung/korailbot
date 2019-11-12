@@ -3,7 +3,7 @@ Korail Ticket Reservation Bot
 
 <!-- [![Build Status](https://travis-ci.org/sng2c/korail2.svg?branch=master)](https://travis-ci.org/sng2c/korail2) -->
 
-This project was used from [telepot](https://github.com/nickoala/telepot) of [korail2](https://github.com/carpedm20/korail2).
+This project was used from [telepot](https://github.com/nickoala/telepot) and [korail2](https://github.com/carpedm20/korail2).
 
 
 Documentation
@@ -17,6 +17,7 @@ Installing
 ----------
 
 you can also install manually:
+
     $ Get a Telegram bot authentication token [LINK](https://core.telegram.org/bots#6-botfather)
     $ git clone git://github.com/jeenhyung/korailbot.git
     $ python bot.py TOKEN (Or, python3)
