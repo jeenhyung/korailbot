@@ -34,4 +34,4 @@ Source codes are distributed under BSD license.
 Author
 ------
 
-Jinhyung Park / [@jeenhyung](https://github.com/jeenhyung) -->
+Jinhyung Park / [@jeenhyung](https://github.com/jeenhyung)
