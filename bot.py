@@ -40,7 +40,7 @@ def handle(msg):
         
         if content_type == 'text':
                 if text_arr[0] == "/start":
-                        bot.sendMessage(chat_id, "안녕하세요. 코레일 자동 예메 봇 '리차' 입니다.")
+                        bot.sendMessage(chat_id, "안녕하세요. 코레일 자동 예매 봇 '리차' 입니다.")
                         bot.sendMessage(chat_id, "다음을 입력해 주세요.\n 1) 출발역: '/dep 동대구'\n 2) 도착역: '/arr 김천'\n 3) 날짜: '/date 20190101'\n 4) 시간: '/time 000000'\n 5) 입력값 확인: '/show'\n-------------------------------------\n 6) 여정 검색: '/search'\n")
                         bot.sendMessage(chat_id, "원하는 값을 입력(1~4)하고, 여정을 검색(6) 해 주세요.")
 
@@ -75,7 +75,7 @@ def handle(msg):
                                         raise Exception
                                 
                                 # if(text_arr[1].isdigit()):
-                                #train_num = text_arr[1]
+                                        #train_num = text_arr[1]
                                 bot.sendMessage(chat_id, "예약 시도")
 
                                 # async_reserve(is_reserved)
@@ -94,13 +94,11 @@ def handle(msg):
 
                 # bot.sendMessage(chat_id, msg['text'])
 
-TOKEN = sys.argv[1]  # get token from command-line
+TOKEN = sys.argv[1]
 
 bot = telepot.Bot(TOKEN)
 MessageLoop(bot, handle).run_as_thread()
 print ('Listening ...')
 
-# Keep the program running.
 while 1:
         timeObject.sleep(10)
-        # pass
